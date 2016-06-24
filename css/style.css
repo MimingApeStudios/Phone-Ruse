@@ -1,1 +1,149 @@
+body {
+background-color:#05c3f9;
+width:100%;
+}
+
+#phoneScreen {
+	width:100%;
+	margin: auto;
+	
+}
+
+#welcome {
+	line-height:1.5em;
+	font-size: 1.5em;
+	color:#ffffff;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 20% 10%;
+	text-align:center;
+}
+p {
+	line-height:1.5em;
+	font-size: 1em;
+	color:#ffffff;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 10%;
+}
+
+
+#timeSelectors {
+
+}
+
+button {
+ 
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #0090f0;
+  padding: 6px 40px 6px 40px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #226894;
+  text-decoration: none;
+}
+
+/* 
+ * Call Screen Page
+ */
+
+#answer {
+	margin: auto;
+	background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position:absolute;
+    transition: .5s ease;
+    top: 83%;
+    left: 58%;
+}
+
+#hangUp{
+	position:absolute;
+	margin: auto;
+	background-color: red; /* red*/
+	color: white;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: .5s ease;
+    top: 83%;
+    left: 10%;
+}
+
+#headBubble {
+	position: absolute;
+	top: 20%;
+    left: 18%;
+}
+#callerName {
+	font-size:2em;
+	font-family: Verdana, Geneva, sans-serif;
+	opacity:0.8;
+	margin-top: -1em;
+  	margin-bottom: -1em;
+  	margin-left:-15%;
+  	text-align: center;
+  	
+}
+#callerNumber {
+	font-size:.8em;
+	font-family: Verdana, Geneva, sans-serif;
+	opacity:0.8;
+	margin-top: -4em;
+  	margin-bottom: 0em;
+  	margin-left:-15%;
+  	text-align: center;
+}
+
+
+#callScreen {
+	position:absolute;
+	width:100%;
+	height:100%;
+	margin: auto;
+	background-image: url("../images/callBackground1.png");
+	background-size:cover;
+}
+
+#countdown {
+	color: #e4e4e4;
+	text-align:center;
+}
+
+/*
+ * Thank you & boss key
+ */
+
+#bossKey{
+	position:absolute;
+	margin: auto;
+	background-color: blue; /* blue */
+	color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: .5s ease;
+    top: 60%;
+    left: 30%;
+}
+
+#bossScreen {
+	position:absolute;
+	width:100%;
+	height:100%;
+	margin: auto;
+	background-image: url("../images/bossKey.png");
+	background-size:cover;
+}
 
